@@ -1,0 +1,27 @@
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  font: 1rem / 1.2 sans-serif;
+  background-color: #f1f1f1;
+}
+
+.view {
+  display: flex;
+  align-items: flex-start;
+  flex-flow: column;
+  padding: 32px;
+  margin: 32px auto 0;
+  max-width: 520px;
+  background-color: #fff;
+  box-shadow: 0 5px 10px hsla(0, 0%, 0%, .2);
+  border-radius: 4px;
+}
